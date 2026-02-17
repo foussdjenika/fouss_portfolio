@@ -17,12 +17,15 @@
         const lightbox = document.getElementById('lightbox');
         const lightboxImg = document.getElementById('lightbox-img');
         const closeButton = document.querySelector('.close-button');
-        const galleryItems = document.querySelectorAll('.gallery-item img');
+        const galleryItems = document.querySelectorAll('.gallery-item');
 
         galleryItems.forEach(item => {
             item.addEventListener('click', function() {
-                lightbox.style.display = 'flex';
-                lightboxImg.src = this.src;
+                const img = this.querySelector('img');
+                if (img) {
+                    lightbox.style.display = 'flex';
+                    lightboxImg.src = img.src;
+                }
             });
         });
 

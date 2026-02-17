@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fousseine Djienika - Portfolio</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,7 +18,7 @@
     <header>
         <nav>
             <div class="logo">Fousseine.</div>
-            
+
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -35,183 +38,324 @@
     </header>
 
     <main>
-        <section id="hero" class="hidden">
-            <h1>Fousseine Djienika</h1>
-            <p>Community Manager & Créateur de Contenu Visuel</p>
-            <a href="#portfolio" class="cta-button">Voir mes réalisations</a>
-        </section>
-
-        <section id="about" class="hidden">
-            <h2>À Propos de Moi</h2>
-            <p>Passionné de communication digitale, je combine les compétences de Community Manager et de Graphiste/Monteur Vidéo. Doté d'un "bon sens esthétique" et d'une "plume fluide", je sais comment créer des visuels et vidéos savoureux pour engager et faire grandir une communauté.</p>
-        </section>
-
-        <section id="skills" class="hidden">
-            <h2>Compétences Techniques</h2>
-            <div class="skills-container">
-                <div class="skills-column">
-                    <h3>Compétences Clés</h3>
-                    <ul>
-                        <li>Gestion des Réseaux Sociaux (FB, IG, TikTok)</li>
-                        <li>Création de Stratégie de Contenu</li>
-                        <li>Interaction & Animation de Communauté</li>
-                        <li>Analyse des Performances Digitales</li>
-                        <li>Rédaction Web & Storytelling</li>
-                    </ul>
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="greeting">Bonjour, je suis</span>
+                    <h1 class="glitch" data-text="Fousseine Djienika">Fousseine Djienika</h1>
+                    <p class="role">GRAPHISTE | INFORMATICIEN POLYVALENT</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="cta-button primary">Mes Travaux</a>
+                        <a href="#contact" class="cta-button secondary">Me Contacter</a>
+                    </div>
                 </div>
-                <div class="skills-column">
-                    <h3>Logiciels & Outils</h3>
-                    <ul>
-                        <li>Suite Adobe (Photoshop, Premiere Pro)</li>
-                        <li>Canva & CapCut</li>
-                        <li>Microsoft Office (Word, Excel)</li>
-                        <li>Bureautique & Outils Internet</li>
-                        <li>Programmation (Bases) & IA</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        
-        <section id="experience" class="hidden">
-            <h2>Expérience Professionnelle</h2>
-
-            <div class="card-item">
-                <h3>Technicien WEB TV</h3>
-                <div class="sub-heading">Building Five5 TV | Bamako, Mali</div>
-                <div class="date">Juin 2024 - Septembre 2025</div>
-                <ul>
-                    <li>Réalisation et production technique des émissions pour la diffusion en ligne.</li>
-                    <li>Montage vidéo et post-production des contenus pour les plateformes digitales.</li>
-                    <li>Gestion de la diffusion et de l'optimisation des vidéos sur les réseaux sociaux.</li>
-                </ul>
-            </div>
-
-            <div class="card-item">
-                <h3>Graphiste et Community Manager</h3>
-                <div class="sub-heading">KS Venture | Bamako, Mali</div>
-                <div class="date">Avril 2019 - Janvier 2020</div>
-                <ul>
-                    <li>Création de tous les visuels (publications, stories, publicités) pour les réseaux sociaux.</li>
-                    <li>Gestion et animation de la communauté en ligne (réponses aux commentaires, messages).</li>
-                    <li>Gestion opérationnelle de la boutique en ligne.</li>
-                    <li>Gestion du site internet</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="education" class="hidden">
-            <h2>Formation</h2>
-
-            <div class="card-item">
-                <h3>Attestation de Formation (Langue Bambara)</h3>
-                <div class="sub-heading">Initiation à la lecture, transcription et méthodologie d'enseignement.</div>
-                <div class="date">2022</div>
-            </div>
-
-            <div class="card-item">
-                <h3>Diplôme de l'Institut de formation des maîtres (Enseignement de la langue Anglaise)</h3>
-                <div class="sub-heading">IFM DE KITA | </div>
-                <div class="date">2020 - 2022</div>
-            </div>
-            
-            <div class="card-item">
-                <h3>Baccalauréat Malien (Sciences Expérimentales)</h3>
-                <div class="sub-heading">Complexe Scolaire Fatoumata Haïdara | </div>
-                <div class="date">2016 - 2019</div>
-            </div>
-
-            <div class="card-item">
-                <h3>Diplôme d’études fondamentales</h3>
-                <div class="sub-heading">Ecole fondamentale de Boura | </div>
-                <div class="date">2015 - 2016</div>
-            </div>
-
-        </section>
-
-        <section id="portfolio">
-            <h2>Mes Réalisations</h2>
-            <p class="subtitle">Voici quelques-uns de mes travaux en design graphique et gestion de communauté.</p>
-            
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="images/img-01.jpeg" alt="Réalisation 1">
-                    <div class="overlay"><h3>Projet 1</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-02.jpeg" alt="Réalisation 2">
-                    <div class="overlay"><h3>Projet 2</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-03.jpeg" alt="Réalisation 3">
-                    <div class="overlay"><h3>Projet 3</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-04.jpeg" alt="Réalisation 4">
-                    <div class="overlay"><h3>Projet 4</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-05.jpeg" alt="Réalisation 5">
-                    <div class="overlay"><h3>Projet 5</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-06.jpeg" alt="Réalisation 6">
-                    <div class="overlay"><h3>Projet 6</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-07.jpeg" alt="Réalisation 7">
-                    <div class="overlay"><h3>Projet 7</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-08.jpeg" alt="Réalisation 8">
-                    <div class="overlay"><h3>Projet 8</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-09.jpeg" alt="Réalisation 9">
-                    <div class="overlay"><h3>Projet 9</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-10.jpeg" alt="Réalisation 10">
-                    <div class="overlay"><h3>Projet 10</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-11.jpeg" alt="Réalisation 11">
-                    <div class="overlay"><h3>Projet 11</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-12.jpeg" alt="Réalisation 12">
-                    <div class="overlay"><h3>Projet 12</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-13.jpeg" alt="Réalisation 13">
-                    <div class="overlay"><h3>Projet 13</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-14.jpeg" alt="Réalisation 14">
-                    <div class="overlay"><h3>Projet 14</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-15.jpeg" alt="Réalisation 15">
-                    <div class="overlay"><h3>Projet 15</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-16.jpeg" alt="Réalisation 16">
-                    <div class="overlay"><h3>Projet 16</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-17.jpeg" alt="Réalisation 17">
-                    <div class="overlay"><h3>Projet 17</h3></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/img-18.jpeg" alt="Réalisation 18">
-                    <div class="overlay"><h3>Projet 18</h3></div>
+                <div class="hero-graphic">
+                    <div class="blob"></div>
                 </div>
             </div>
         </section>
 
-        <footer id="contact" class="hidden">
-            <h2>Contactez-moi</h2>
-            <p>Prêt à collaborer ? Envoyez-moi un e-mail :</p>
-            <a href="mailto:fousseynidjenika@gmail.com" class="cta-button">fousseynidjenika@gmail.com</a>
+        <section id="about" class="section-padding hidden">
+            <div class="container">
+                <h2 class="section-title">À PROPOS</h2>
+                <div class="about-content">
+                    <p>Informaticien et graphiste indépendant avec <span class="highlight">7 ans d'expérience</span>
+                        pratique. Titulaire d'une attestation en enseignement de l'anglais et d'une attestation en
+                        langue Bambara (lecture, transcription et méthodologie d'enseignement). Je conçois des visuels
+                        attractifs, des sites internet ainsi que des applications mobiles, et j'assure le community
+                        management pour divers projets. J'utilise l'intelligence artificielle pour optimiser mes travaux
+                        techniques et graphiques.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding bg-darker hidden">
+            <div class="container">
+                <h2 class="section-title">COMPÉTENCES</h2>
+                <div class="skills-grid">
+                    <div class="skills-category">
+                        <h3>Technique & Web</h3>
+                        <div class="badges">
+                            <span class="badge">Site Web</span>
+                            <span class="badge">App Mobile</span>
+                            <span class="badge">Maintenance</span>
+                            <span class="badge">Intelligence Artificielle</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Créatif & Gestion</h3>
+                        <div class="badges">
+                            <span class="badge">Graphisme</span>
+                            <span class="badge">Montage Vidéo</span>
+                            <span class="badge">Community Management</span>
+                            <span class="badge">Pack Office</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-padding hidden">
+            <div class="container">
+                <h2 class="section-title">EXPÉRIENCES</h2>
+
+                <div class="timeline">
+                    <div class="card-item timeline-item">
+                        <div class="timeline-content">
+                            <h3>GRAPHISTE (FREELANCE)</h3>
+                            <div class="date">2018 - PRESENT</div>
+                        </div>
+                    </div>
+
+                    <div class="card-item timeline-item">
+                        <div class="timeline-content">
+                            <h3>IT OFFICER & SUPPORT TECHNIQUE (FREELANCE)</h3>
+                            <div class="sub-heading">Diagnostic et réparation, installation de systèmes</div>
+                            <div class="date">2018 - PRESENT</div>
+                        </div>
+                    </div>
+
+                    <div class="card-item timeline-item">
+                        <div class="timeline-content">
+                            <h3>TECHNICIEN WEB TV - BUILDING FIVE5 TV</h3>
+                            <div class="sub-heading">Gestion de la régie live et du streaming numérique.</div>
+                            <div class="date">2024 - 2025</div>
+                        </div>
+                    </div>
+
+                    <div class="card-item timeline-item">
+                        <div class="timeline-content">
+                            <h3>ENSEIGNANT DE L'ANGLAIS</h3>
+                            <div class="sub-heading">Ecole Privée Ooumou Minta</div>
+                            <div class="date">2023 - 2024</div>
+                        </div>
+                    </div>
+
+                    <div class="card-item timeline-item">
+                        <div class="timeline-content">
+                            <h3>GRAPHISTE & GESTIONNAIRE WEB - KS VENTURE</h3>
+                            <div class="sub-heading">Création site web, création graphique pour la boutique</div>
+                            <div class="date">2020 - 2021</div>
+                        </div>
+                    </div>
+
+                    <div class="card-item timeline-item">
+                        <div class="timeline-content">
+                            <h3>DÉVELOPPEUR D'APPLICATIONS - FAKAN KANBARASO</h3>
+                            <div class="sub-heading">Création et gestion d'applications mobiles</div>
+                            <div class="date">2018 - 2025</div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="education" class="section-padding bg-darker hidden">
+            <div class="container">
+                <h2 class="section-title">EDUCATION</h2>
+
+                <div class="timeline">
+                    <div class="card-item timeline-item">
+                        <div class="timeline-content">
+                            <h3>ATTESTATION DE FORMATION LANGUE BAMBARA</h3>
+                            <div class="sub-heading">LECTURE, TRANSCRIPTION, METHODOLOGIE D'ENSEIGNEMENT</div>
+                            <div class="date">Septembre 2022</div>
+                        </div>
+                    </div>
+
+                    <div class="card-item timeline-item">
+                        <div class="timeline-content">
+                            <h3>INSTITUT DE FORMATION DES MAÎTRES</h3>
+                            <div class="sub-heading">DIPLÔME SÉRIE LANGUES</div>
+                            <div class="date">2020 - 2022</div>
+                        </div>
+                    </div>
+
+                    <div class="card-item timeline-item">
+                        <div class="timeline-content">
+                            <h3>BACCALAURÉAT MALIEN</h3>
+                            <div class="sub-heading">SÉRIE SCIENCES EXPÉRIMENTALES</div>
+                            <div class="date">2018 - 2019</div>
+                        </div>
+                    </div>
+
+                    <div class="card-item timeline-item">
+                        <div class="timeline-content">
+                            <h3>DIPLÔME D'ETUDE FONDAMENTALE (DEF)</h3>
+                            <div class="sub-heading">ECOLE FONDAMENTALE DE BOURA</div>
+                            <div class="date">2015 - 2016</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages-hobbies" class="section-padding hidden">
+            <div class="container">
+                <div class="skills-grid">
+                    <div class="skills-category">
+                        <h3>LANGUES</h3>
+                        <div class="badges">
+                            <span class="badge">FRANÇAIS</span>
+                            <span class="badge">ANGLAIS</span>
+                            <span class="badge">BAMBARA</span>
+                            <span class="badge">PANAN(SAMOGO)</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>HOBBIES</h3>
+                        <div class="badges">
+                            <span class="badge">INFORMATIQUE</span>
+                            <span class="badge">JEUX VIDEOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section-padding bg-darker hidden">
+            <div class="container">
+                <h2 class="section-title">Mes Réalisations</h2>
+                <p class="subtitle">Voici quelques-uns de mes travaux en design graphique.</p>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/img-01.jpeg" alt="Réalisation 1">
+                        <div class="overlay">
+                            <h3>Projet 1</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-02.jpeg" alt="Réalisation 2">
+                        <div class="overlay">
+                            <h3>Projet 2</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-03.jpeg" alt="Réalisation 3">
+                        <div class="overlay">
+                            <h3>Projet 3</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-04.jpeg" alt="Réalisation 4">
+                        <div class="overlay">
+                            <h3>Projet 4</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-05.jpeg" alt="Réalisation 5">
+                        <div class="overlay">
+                            <h3>Projet 5</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-06.jpeg" alt="Réalisation 6">
+                        <div class="overlay">
+                            <h3>Projet 6</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-07.jpeg" alt="Réalisation 7">
+                        <div class="overlay">
+                            <h3>Projet 7</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-08.jpeg" alt="Réalisation 8">
+                        <div class="overlay">
+                            <h3>Projet 8</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-09.jpeg" alt="Réalisation 9">
+                        <div class="overlay">
+                            <h3>Projet 9</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-10.jpeg" alt="Réalisation 10">
+                        <div class="overlay">
+                            <h3>Projet 10</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-11.jpeg" alt="Réalisation 11">
+                        <div class="overlay">
+                            <h3>Projet 11</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-12.jpeg" alt="Réalisation 12">
+                        <div class="overlay">
+                            <h3>Projet 12</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-13.jpeg" alt="Réalisation 13">
+                        <div class="overlay">
+                            <h3>Projet 13</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-14.jpeg" alt="Réalisation 14">
+                        <div class="overlay">
+                            <h3>Projet 14</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-15.jpeg" alt="Réalisation 15">
+                        <div class="overlay">
+                            <h3>Projet 15</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-16.jpeg" alt="Réalisation 16">
+                        <div class="overlay">
+                            <h3>Projet 16</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-17.jpeg" alt="Réalisation 17">
+                        <div class="overlay">
+                            <h3>Projet 17</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/img-18.jpeg" alt="Réalisation 18">
+                        <div class="overlay">
+                            <h3>Projet 18</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="footer-section hidden">
+            <div class="container">
+                <h2 class="section-title">CONTACT</h2>
+
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <h3>Téléphone</h3>
+                        <p>+223 71 38 32 05</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <a href="mailto:fousseynidjenika@gmail.com">fousseynidjenika@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Adresse</h3>
+                        <p>Banconi, Bamako, Mali</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Permis</h3>
+                        <p>Permis de conduire B</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Fousseine Djienika. Tous droits réservés.</p>
+                </div>
+            </div>
         </footer>
     </main>
 
